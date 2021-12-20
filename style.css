@@ -1,0 +1,640 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100;400;500&family=Poppins:ital,wght@0,200;0,300;1,200&family=Roboto:wght@300&family=Rubik:ital@0;1&display=swap%27');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin-left: 20px ;
+    margin-right: 20px ;
+    min-width: 550px;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul:first-child{
+    width: 80%;
+}
+ 
+nav ul:last-child{
+    width:20%;
+    display: flex;
+    justify-content: right;
+}
+
+ul:last-child li:last-child{
+    margin: 0 0px;
+    
+}
+   
+
+
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+   
+
+nav ul b{
+    font-weight: 900px;
+    font-size: large;
+    margin-right: 20%;
+}
+
+nav ul li a{
+    color: black;
+     text-decoration: none;
+}
+
+nav ul:last-child li button{
+    border:none;
+    padding: 8px 10px ;
+    background-color: white;
+}
+
+nav ul:last-child li:last-child button{
+    background-color: black;
+    color: white;
+}
+.ppics{
+    color: black;
+}
+
+
+
+/*   header  */
+
+header{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.content-hader{
+    width: 100%;
+    height: 300px;
+    background-color: black ;
+    border-radius: 5px;
+    position: relative;
+}
+h1{
+    color: white;
+    margin-left:50px;
+    margin-top: 70px;
+}
+.first{
+    color: white;
+    margin-left:50px;
+    margin-top: 20px;
+}
+.hero{
+    position: absolute;
+    right: 10%;
+    bottom: 0px;
+    top: 30px;
+    height: 400px;
+    width: 400px;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+}
+.marques{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#buttonone{
+    display: inline-block;
+    background-image: linear-gradient(to right,orange,purple);
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px; 
+    margin-left: 20px;
+    padding: 0 20px;
+}
+
+#buttonone a{
+    color: white;
+    text-decoration: none;
+}
+.div-select{
+    text-decoration: none;
+    width: 440px;
+    height: 40px ;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+}
+
+.scop {
+    position: absolute;
+    left: 10px;
+   top: 13px;
+}
+
+#promocode{
+    width: 60%;
+    padding: 5px;
+    padding-left: 30px;
+}
+.marques img{
+    width: 15%;
+    height: 50px;
+    margin: 5px;
+}
+#su{
+    text-decoration: none;
+    color: white;
+}
+#loi{
+    color: black;
+    text-decoration: none;
+}
+.elements{
+    display: flex;
+    height: 500px;
+    align-items: center;
+}
+.ppics{
+    width: 40%;
+    height: 100%;
+    margin: 20px;
+    margin-top: 30%;
+}
+.ppics h2{
+    margin-top: 50px;
+}
+.i1 , .i2{
+    width: 30% ;
+    height: 100%;
+    height: 100%;
+    margin-top: 20%;
+    background-image: linear-gradient(to right,orange,purple);
+}
+
+.i1 img , .i2 img{
+    width: 100% ;
+    height: 100%;
+}
+
+.valid{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: linear-gradient(to right,orange,purple);
+    border-radius: 50%;
+    color: white;
+}
+#buttonrewards{
+    display: inline-block;
+    background-image: linear-gradient(to right,orange,purple);
+    margin-top: 35px;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    
+}
+.content-noir{
+    width: 100%;
+    height: 300px;
+    background-color: black ;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 217px;
+    display: flex;
+    align-items: center;
+}
+.second{
+    color: white;
+    margin-left:60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+
+#buttonrewards a{
+    text-decoration: none;
+    color: white;
+}
+
+#signup-image{
+    position: absolute;
+    right: 10%;
+    bottom: 70%;
+    top: -35px;
+    height: 400px;
+    width: 500px;
+}
+#google{
+    width: 10px;
+    height: 10px;
+    
+}
+
+#signup-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.gbuttons{
+    margin-left: 50px;
+   
+}
+  
+
+.text-noir h1{
+    margin-top: 0;
+}
+
+.gbuton{
+border-radius: 5px;
+border: none;
+width: 150px;
+height: 30px;
+
+}
+.feat{
+    border-radius: 5px;
+border: none;
+width: 150px;
+height: 30px;
+background-image: linear-gradient(to right,orange,purple);
+color: white;
+
+}
+.gridpics{
+    display: grid;
+    grid-template-columns: repeat(5j, fit-content);
+    grid-gap: 20px;
+
+}
+
+.gridpics img {
+    width: 100%;
+    height: auto;
+}
+.premiere{
+    grid-column:1/3;
+    grid-row: 1;
+    margin-top: 120px
+}
+.deuxieme{
+    grid-column: 3;
+    grid-row: 1/3;
+    margin-top: 120px;
+}
+.troisieme{
+    grid-column: 4;
+    grid-row: 1;
+    margin-top: 120px;
+}
+.quatrieme{
+    grid-column: 5;
+    grid-row: 1;
+    margin-top: 120px;
+}
+.cinquieme{
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: -2vh;
+}
+
+.sixieme{
+    grid-column: 4;
+    grid-row: 2;
+}
+.septieme{
+    grid-column: 5;
+    grid-row: 2;
+    margin-top: -2vh;
+}
+.content-footer{
+    width: 100%;
+    height: 300px;
+    background-color: black ;
+    border-radius: 5px;
+    color: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon{
+    width: 40%;
+}
+
+.footer-link{
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.footer-link ul{
+    display: flex;
+    margin: 0 20px;
+    flex-direction: column;
+}
+
+
+.footer-link ul li:first-child{
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.footer-link ul li{
+    margin: 5px 0;
+}
+
+.footer-link ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 5px 0;
+}
+
+
+    
+
+@media screen and (max-width:700px){
+
+    nav{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav ul:first-child{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    nav ul:first-child li{
+        margin: 10px 0;
+    }
+
+    nav ul:first-child li a{
+        text-decoration: none;
+        color: black;
+    }
+     
+    nav ul:last-child{
+        width:100%;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    ul li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+       
+    
+    nav ul b{
+        font-weight: 900px;
+        font-size: large;
+        margin: 20px 0;
+        margin-right: 0%;
+    }
+    
+    nav ul:last-child li button{
+        border:none;
+        padding: 8px 10px ;
+        background-color: white;
+    }
+    
+    nav ul:last-child li:last-child button{
+        background-color: black;
+        color: white;
+    }
+    .ppics{
+        color: black;
+    }
+
+
+
+    #heroimg{
+        display: none;
+    }
+
+    .marques img{
+        width: 25%;
+        height: 50px;
+    }  
+    #signup-image{
+        display: none;
+    } 
+    .haut{
+        flex-wrap: wrap;
+    }
+
+    .gridpics{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        
+    
+    }
+
+    .premiere{
+        grid-column:1/3;
+        grid-row: 1;
+       
+    }
+    .premiere img{
+        width: 100%;
+        height: 100%;
+        height: 300px;
+    }
+
+
+    .deuxieme{
+        grid-column:1/3;
+        grid-row: 2;
+        margin-top: 0;
+        height: 300px;
+    }
+    .deuxieme img{
+        width: 100%;
+        height: 100%;
+        
+
+    }
+
+
+    .troisieme{
+        grid-column:1/3;
+        grid-row: 3;
+        margin-top: 20px;
+        height: 300px;
+      
+    }
+    .troisieme img{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+
+    .quatrieme{
+        grid-column:1/3;
+        grid-row: 4;
+        height: 300px;
+        margin-top: 20px;
+        
+        
+    }
+    .quatrieme img{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+
+    .cinquieme{
+        grid-column:1/3;
+        grid-row: 5;
+        height: 300px;
+        margin-top: 20px;
+        
+    }
+    .cinquieme img{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .sixieme{
+        grid-column:1/3;
+        grid-row: 6;
+        height: 300px;
+        margin-top: 20px;
+    }
+    .sixieme img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .septieme{
+        grid-column:1/3;
+        grid-row: 7;
+        height: 300px;
+        margin-top: 20px;
+        
+    }
+    .septieme img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .elements {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .ppics{
+        width: 90%;
+        height: 100%;
+        margin: 20px;
+        margin-top: 30%;
+    }
+    .ppics h2{
+        margin-top: 50px;
+    }
+    .i1 , .i2{
+        width: 90% ;
+        height: 100%;
+        height: 100%;
+        margin-top: 20%;
+        background-image: linear-gradient(to right,orange,purple);
+    }
+
+    
+
+
+    .content-footer{
+        width: 100%;
+        height: auto;
+        background-color: black ;
+        border-radius: 5px;
+        color: white;
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 30px 0 ;
+    }
+    
+    .footer-icon{
+        width: 100%;
+    }
+    
+    .footer-link{
+        width: 100%;
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-link ul{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+    }
+    
+    
+    .footer-link ul li:first-child{
+        
+        margin-bottom: 20px;
+    }
+    
+    .footer-link ul li{
+        margin: 5px 0;
+    }
+    
+    .footer-link ul li a{
+        text-decoration: none;
+        color: white;
+        margin: 5px 0;
+    }
+    
+    
+    
+
+
+}
+
